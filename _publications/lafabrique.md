@@ -3,7 +3,7 @@ title: "Industries circulaires – Esquisse d’une transformation"
 collection: publications
 categories: policy
 permalink: /publication/lafabrique/
-date: 2025
+date: 2025-01-01
 venue: 'Journal 1'
 paperurl: 'https://www.la-fabrique.fr/fr/publication/industries-circulaires/'
 citation: 'Granier, C. et al. (2025). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
