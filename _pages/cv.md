@@ -7,4 +7,8 @@ redirect_from:
   - /resume
 ---
 
-Consult my [CV](/files/CV.pdf)
+<iframe 
+  src="/files/CV.pdf" 
+  width="100%" 
+  height="1000px">
+</iframe>
