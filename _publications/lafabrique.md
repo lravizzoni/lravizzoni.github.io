@@ -2,7 +2,7 @@
 title: "Industries circulaires – Esquisse d’une transformation"
 collection: publications
 categories: policy
-permalink: /publication/lafabrique/
+permalink: /publications/lafabrique/
 date: 2025-01-01
 venue: 'Journal 1'
 paperurl: 'https://www.la-fabrique.fr/fr/publication/industries-circulaires/'
