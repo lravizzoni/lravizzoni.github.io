@@ -1,7 +1,7 @@
 ---
 title: "Industries circulaires – Esquisse d’une transformation"
 collection: publications
-category: Policy Work
+category: policy
 permalink: /publication/lafabrique
 date: 2025
 venue: 'Journal 1'
