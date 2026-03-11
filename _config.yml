@@ -226,27 +226,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: ""
@@ -261,8 +244,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -270,32 +251,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
 
 # Outputting
 permalink: /:categories/:title/
@@ -303,18 +263,8 @@ permalink: /:categories/:title/
 # paginate_path: /page:num/
 timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
 # Plugins
 plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jemoji
-
-# Mimic GitHub Pages with --safe
-whitelist:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
