@@ -1,43 +1,20 @@
 ---
-title: Teaching
-permalink: /teaching/
-author_profile: true
+title: "Teaching experience 1"
+collection: teaching
+type: "Undergraduate course"
+permalink: /teaching/2014-spring-teaching-1
+venue: "University 1, Department"
+date: 2014-01-01
+location: "City, Country"
 ---
 
-## Courses
+This is a description of a teaching experience. You can use markdown like any other post.
 
-### Institution A
+Heading 1
+======
 
-#### Course Title 1  
-- **Level:** Undergrad  
-- **Year:** 2023  
-- [Syllabus](#)
+Heading 2
+======
 
-#### Course Title 2  
-- **Level:** Grad  
-- **Year:** 2022  
-- [Syllabus](#)
-
-### Institution B
-
-#### Course Title 1  
-- **Level:** PhD  
-- **Year:** 2021  
-- [Syllabus](#)
-
-#### Course Title 2  
-- **Level:** Undergrad  
-- **Year:** 2020  
-- [Syllabus](#)
-
-### Institution C
-
-#### Course Title 1  
-- **Level:** Grad  
-- **Year:** 2019  
-- [Syllabus](#)
-
-#### Course Title 2  
-- **Level:** PhD  
-- **Year:** 2018  
-- [Syllabus](#)
+Heading 3
+======
