@@ -4,7 +4,7 @@ collection: publications
 category: policy
 permalink: /publication/lafabrique/
 date: 2025-05-15
-venue: 'La Fabrique de l'Industrie'
+venue: "La Fabrique de l'Industrie"
 paperurl: 'https://www.la-fabrique.fr/wp-content/uploads/2025/05/pdf-de-la-note-56-industries-circulaires.-esquisse-dune-transformation.pdf'
 citation: "Granier, C., Cathelat, S., et al. (2025). Industries circulaires – Esquisse d’une transformation. La Fabrique de l’Industrie."
 ---
