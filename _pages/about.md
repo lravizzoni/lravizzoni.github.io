@@ -2,18 +2,21 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi! I am a predoctoral researcher at the Toulouse School of Economics in the Econometrics and Empirical Economics Department.
+Hi! I am a predoctoral researcher at the [Toulouse School of Economics](https://www.tse-fr.eu) in the Econometrics and Empirical Economics Department.
 
-My work explores the intersection of Economics and Public Policy to shed light on real-world problems, combining reduced-form empirical strategies with structural modeling, often incorporating insights from behavioural science.
+My work explores the intersection of **Economics and Public Policy** to shed light on real-world problems. I combine reduced-form empirical strategies with structural modeling, often drawing on insights from behavioural science.
 
-<div style="max-width:700px; line-height:1.8;">
-
-<p><strong>Research Fields</strong><br>
-Economics of Education, Development Economics, Political Economy, Culture </p>
-
+<div class="about__section">
+  <h4>Research Fields</h4>
+  <ul class="field-tags">
+    <li class="field-tag">Economics of Education</li>
+    <li class="field-tag">Development Economics</li>
+    <li class="field-tag">Political Economy</li>
+    <li class="field-tag">Culture</li>
+  </ul>
 </div>
