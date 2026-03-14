@@ -1,0 +1,212 @@
+/* ==========================================================================
+   CUSTOM STYLES — Lorenzo Ravizzoni
+   ========================================================================== */
+
+/*
+   Masthead refinements
+   ========================================================================== */
+
+.masthead {
+  border-bottom: 1px solid var(--global-border-color);
+
+  &::after {
+    display: none; // replaced by border-bottom above
+  }
+
+  &__inner-wrap {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+}
+
+.masthead__menu-item--lg a {
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.04em;
+  font-size: 1.05em;
+}
+
+/*
+   Sidebar author profile refinements
+   ========================================================================== */
+
+.author__avatar img {
+  border-radius: 6px !important;
+  border: none !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.author__name {
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em;
+}
+
+.author__bio {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.82em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--global-base-color) !important;
+  font-weight: 600;
+}
+
+.author__urls a {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.82em !important;
+}
+
+/*
+   Archive / Publications / Teaching items
+   ========================================================================== */
+
+.archive__item {
+  position: relative;
+  padding: 1.1em 0 1.1em 1.1em;
+  margin-bottom: 0.5em;
+  border-left: 3px solid var(--global-base-color);
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-left-color: var(--global-link-color-hover);
+
+    .archive__item-title {
+      text-decoration: none;
+    }
+  }
+}
+
+.archive__item-title {
+  font-family: "Raleway", sans-serif !important;
+  font-size: 1em !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.3em !important;
+  margin-top: 0 !important;
+
+  a {
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-link-color);
+    }
+  }
+}
+
+/* Venue and year metadata */
+.archive__item > p:first-of-type {
+  font-size: 0.82em;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.4em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* Citation text */
+.archive__item-excerpt,
+.archive__item > p {
+  font-size: 0.88em;
+  line-height: 1.6;
+}
+
+/* Section headings on archive pages (e.g. "Working Papers") */
+.archive h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 0.95em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-base-color);
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.archive h2 + hr {
+  display: none; // remove duplicate divider after heading
+}
+
+/*
+   About page — research fields tags
+   ========================================================================== */
+
+.about__section {
+  margin-top: 1.8em;
+
+  h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.6em;
+    margin-top: 0;
+  }
+}
+
+.field-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.field-tag {
+  display: inline-block;
+  padding: 0.22em 0.7em;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--global-base-color);
+  border: 1.5px solid var(--global-base-color);
+  border-radius: 2px;
+  opacity: 0.85;
+  transition: opacity 0.15s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+/*
+   Page content typography improvements
+   ========================================================================== */
+
+.page__content {
+  p {
+    line-height: 1.75;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--global-link-color);
+
+    &:hover {
+      border-bottom-color: var(--global-link-color-hover);
+      color: var(--global-link-color-hover);
+    }
+  }
+
+  // Don't apply underline-border to buttons
+  .btn {
+    border-bottom: none;
+  }
+}
+
+/*
+   Footer
+   ========================================================================== */
+
+.page__footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.78em;
+  letter-spacing: 0.03em;
+}
