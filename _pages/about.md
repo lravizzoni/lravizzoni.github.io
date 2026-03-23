@@ -15,6 +15,7 @@ My work explores the intersection of **Economics and Public Policy** to shed lig
   <h4>Research Fields</h4>
   <ul class="field-tags">
     <li class="field-tag">Economics of Education</li>
+    <li class="field-tag">Economics of Parenting</li>
     <li class="field-tag">Development Economics</li>
     <li class="field-tag">Political Economy</li>
     <li class="field-tag">Culture</li>
