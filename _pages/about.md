@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a predoctoral researcher at the [Toulouse School of Economics](https://www.tse-fr.eu) in the Econometrics and Empirical Economics Department.
+Hi! I am a predoctoral researcher at the [Toulouse School of Economics](https://www.tse-fr.eu) in the Econometrics and Empirical Economics Department. I will begin my PhD in Economics at [Duke University](https://econ.duke.edu/).
 
 My work explores the intersection of **Economics and Public Policy** to shed light on real-world problems. I combine reduced-form empirical strategies with structural modeling, often drawing on insights from behavioural science.
 
